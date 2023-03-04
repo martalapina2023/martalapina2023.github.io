@@ -3,8 +3,15 @@
   margin-bottom: 0.5rem;
   width: 100%;
   font-size: 1.8rem;
-  border: 0.1rem solid #ee8f22;
+  border: 0.1rem solid #ff583a;
   background-color: rgb(238, 111, 37);
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(143, 86, 235, 0.541);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
 }
 
 .choice-text {
